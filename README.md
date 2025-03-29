@@ -35,7 +35,7 @@ O projeto foi iniciado utilizando o template oficial: [esp-idf-template](https:/
 A gravação no ESP32 ocorre automaticamente durante o build, devido às configurações do projeto.
 
 ```bash
-cargo build --release
+cargo run --release
 ```
 
 ---
