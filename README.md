@@ -10,9 +10,9 @@ O projeto foi iniciado utilizando o template oficial: [esp-idf-template](https:/
 
 - Emulador Chip-8 completo
 - Ciclo de instruções adaptado para o ambiente embarcado
-- Suporte à renderização em display (ex: OLED, TFT)
+- Suporte à renderização em display OLED (SSD1306 via I2C)
 - Leitura de entradas via GPIO (teclado ou botões físicos)
-- Beep simples via PWM ou DAC
+- Beep simples via controle direto de GPIO
 - Rodando nativamente no **ESP32** com `esp-idf`
 
 > Atualmente, apenas o jogo **Space Invaders** está disponível e está hardcoded no `main.rs`.  
